@@ -1,4 +1,4 @@
-1.3. Caso "Por absurdo":
+[]()1.3. Caso "Por absurdo":
 
 (c) Entre três números reais, um deles sempre é maior ou igual á média 
 aritmética de todos.
@@ -49,15 +49,19 @@ Unicidade -> Suponha-se que existam dois possíveis e conclui-se que são o mesm
 (a) Para todo n primo, o inteiro 2^n - 1 também é primo?
 
 Pelo método do C-E (Contraexemplo), temos: 
+```
 1 - K = 2² - 1 = 3, para todo K pertencente aos Inteiros.
 2 - K = 2³ - 1 = 7,
 3 - K = 2⁵ - 1 = 31
 4 - K = 2⁷ - 1 = 127,
-5 - K = 2¹¹ - 1   = 2047 = 23 * 89, Portando, temos um caso que resultou em um número composto. ( Contra-Exemplo )
+5 - K = 2¹¹ - 1   = 2047 = 23 * 89 ( Contra-Exemplo )
+```
+Portando, temos um caso que resultou em um número composto. 
 
 (b) Todo inteiro positivo é a soma dos quadrados de três inteiros?
 
 Pelo método do C-E, temos:
+```
 1 - 1 = 1² + 0² + 0²
 2 - 2 = 1² + 1² + 0²
 3 - 3 = 1² + 1² + 1²
@@ -65,6 +69,7 @@ Pelo método do C-E, temos:
 5 - 5 = 2² + 1² + 0²
 6 - 6 = 2² + 1² + 1²
 7 - 7 = 2² + 1² + x² ( Contra-Exemplo )
+```
 Portando, temos um cenário em que não existe um X pertencente aos inteiros para este caso.
 
 (c) Se n é um inteiro e 4n é par, então n é par?
